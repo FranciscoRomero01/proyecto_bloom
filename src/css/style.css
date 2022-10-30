@@ -1,0 +1,93 @@
+/*Variables CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+:root {
+    --main-principal-color: #EF308E;
+    --main-second-color: #F5F5F5;
+    --main-third-color: #E69EB4;
+    --main-fourth-color: #9A9A9A;
+    --text-principal-font: 'Montserrat', sans-serif;
+}
+
+/* Normalizar */
+
+.boton {}
+
+/* Estilos para navbar */
+
+nav {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    max-width: 100px;
+    max-height: 80px;
+}
+
+.navbar-edit {
+    background: var(--main-second-color) !important;
+}
+
+.navbar-span {
+    color: var(--main-fourth-color);
+    text-align: initial;
+    text-transform: uppercase;
+    padding-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link {
+    color: var(--main-principal-color) !important;
+}
+
+.navbar-toggler {
+    background-color: var(--main-principal-color) !important;
+}
+
+/* Estilos en el body */
+
+/* Estilos en el banner */
+
+.banner-imagen {
+    height: 900px;
+    background: url("../../src/img/img-banner.png") no-repeat center / cover;
+}
+
+
+.banner-titulo {
+    position: absolute;
+    left: 10%;
+    text-align: center;
+    top: 65%;
+}
+
+.banner-boton {
+    position: absolute;
+    left: 10%;
+    text-align: center;
+    top: 75%;
+}
+
+/* Categorias */
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+}
+
+.categorias-titulo {
+    color: var(--main-principal-color);
+}
+
+.categorias-contenedor{
+    display: flex;    
+}
+
+.categorias-imagen{
+    background: url("../../src/img/img-banner.png") no-repeat center / cover;
+}
