@@ -6,12 +6,20 @@
     --main-second-color: #F5F5F5;
     --main-third-color: #E69EB4;
     --main-fourth-color: #9A9A9A;
+    --color-withe: #ffffff;
     --text-principal-font: 'Montserrat', sans-serif;
 }
 
 /* Normalizar */
 
-.boton {}
+.boton {
+    background: var(--main-principal-color);
+    color: var(--color-withe);
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    
+}
 
 /* Estilos para navbar */
 
@@ -53,24 +61,27 @@ nav {
 
 /* Estilos en el banner */
 
-.banner-imagen {
+.banner {
     height: 900px;
     background: url("../../src/img/img-banner.png") no-repeat center / cover;
 }
 
-
+.banner-contenido{
+    padding-top: 400px;
+    gap: 3px;
+    padding-left: 100px;
+}
 .banner-titulo {
-    position: absolute;
-    left: 10%;
-    text-align: center;
-    top: 65%;
+    color: var(--color-withe);
+    font-weight: 600;
+    font-size: 3rem;
 }
 
 .banner-boton {
-    position: absolute;
-    left: 10%;
-    text-align: center;
-    top: 75%;
+   width: 15rem;
+   height: 3rem;
+   font-weight: 500;
+   line-height: 26px;  
 }
 
 /* Categorias */
@@ -90,4 +101,14 @@ nav {
 
 .categorias-imagen{
     background: url("../../src/img/img-banner.png") no-repeat center / cover;
+}
+
+.waves .wave1, .waves .wave2, .waves .wave3{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.wave2{
+    padding-top: 25px;
 }

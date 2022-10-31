@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="src/css/reset.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/style.css">
@@ -43,19 +44,24 @@
 
 <body>
 
-    <section class="banner">
-
-        <div class="banner-imagen"></div>
-        <h2 class="banner-titulo">¡Ahorrá con nuestros Kits!</h2>
-        <button class="banner-boton boton">Ver productos</button>
-
+    <section class="banner">  
+        <div class="banner-contenido">
+            <h2 class="banner-titulo">¡Ahorrá con <br> nuestros Kits!</h2>
+            <button class=" boton banner-boton">Ver productos</button>
+        </div>   
     </section>
 
     <section class="categorias">
         <h3 class="categorias-titulo">Categorías</h3>
         <div class="categorias-contenedor">
             <img src="src/img/" alt="">
-        </div>        
+        </div> 
+        
+        <div class="waves">
+            <img class="wave1" src="src/img/img-waves1.png" alt="">
+            <img class="wave2" src="src/img/img-waves2.png" alt="">
+            <img class="wave3" src="src/img/img-waves3.png" alt="">
+        </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
