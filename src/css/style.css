@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
 :root {
-    --main-principal-color: #EF308E;
+    --main-principal-color: #EF1982;
     --main-second-color: #F5F5F5;
     --main-third-color: #E69EB4;
     --main-fourth-color: #9A9A9A;
@@ -102,6 +102,9 @@ nav {
 .categorias-imagen{
     background: url("../../src/img/img-banner.png") no-repeat center / cover;
 }
+.waves{
+    padding-bottom: 2rem;
+}
 
 .waves .wave1, .waves .wave2, .waves .wave3{
     position: absolute;
@@ -112,3 +115,75 @@ nav {
 .wave2{
     padding-top: 25px;
 }
+
+/* Productos */
+
+.productos{
+    padding: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    border: 1.5rem;
+    margin: .75rem;    
+    box-shadow: 5px 10px var(--main-third-color);   
+}
+
+.card-title{
+    color: var(--main-principal-color);
+    font-weight: 400;
+    size: 2rem;
+}
+
+.card-subtitle{
+    color: var(--main-fourth-color);
+    font-weight: 600;
+    size: 1.6rem;
+}
+
+.card-text{
+    color: var(--main-fourth-color);
+    font-weight: 300;
+    size:1.3rem;
+}
+
+.card-boton{
+    text-align: center;
+    width: 100%;    
+    padding: .3rem 5rem .3rem 5rem;
+    text-decoration: none;
+}
+
+.card-boton:hover{
+    background: var(--main-third-color);
+    color: var(--main-principal-color);
+    transition: ease .5s;
+}
+
+
+
+
+
+/* dispositivos moviles */
+
+@media (max-width: 600px) {
+    
+    .card{
+        border: 1rem 0 0 1rem;
+    }
+
+    .card-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-boton{
+        align-items: center;
+        width: 100%;    
+        padding: 0rem 2rem 0rem 2rem;
+        align-self: center;
+    }
+    
+  }
