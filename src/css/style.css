@@ -135,10 +135,12 @@ nav {
 }
 
 .card{
-    height: 600px;
+    height: 650px;
     border: 1.5rem;
-    margin: .75rem;    
-    box-shadow: 5px 10px var(--main-third-color);   
+    box-shadow: 5px 10px var(--main-third-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card-content p{
@@ -149,7 +151,6 @@ nav {
 
 .card-title{
     color: var(--main-fourth-color);
-    font-weight: 600;
     size: 1.6rem;
     font-weight: bold !important;
 }
@@ -161,13 +162,17 @@ nav {
 }
 
 .card-action{
+    background-color: var(--main-principal-color) !important;
     text-align: center;
     width: 100%;    
     padding: .3rem 5rem .3rem 5rem;
+    border-radius: 1.5rem;
+    margin: 0px 5px;
 }
 
 .card-action a{
     text-decoration: none;
+    font-weight: bolder;
 }
 
 .card-action:hover{
