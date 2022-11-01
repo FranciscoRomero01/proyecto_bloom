@@ -125,44 +125,81 @@ nav {
     justify-content: space-between;
 }
 
+.productos .row{
+    width: 30%;
+}
+
+.card-img-top{
+    height: 400px;
+    background-size: 100% 100%;
+}
+
 .card{
+    height: 600px;
     border: 1.5rem;
     margin: .75rem;    
     box-shadow: 5px 10px var(--main-third-color);   
 }
 
-.card-title{
+.card-content p{
     color: var(--main-principal-color);
     font-weight: 400;
     size: 2rem;
 }
 
-.card-subtitle{
+.card-title{
     color: var(--main-fourth-color);
     font-weight: 600;
     size: 1.6rem;
+    font-weight: bold !important;
 }
 
 .card-text{
-    color: var(--main-fourth-color);
+    color: black !important;
     font-weight: 300;
     size:1.3rem;
 }
 
-.card-boton{
+.card-action{
     text-align: center;
     width: 100%;    
     padding: .3rem 5rem .3rem 5rem;
+}
+
+.card-action a{
     text-decoration: none;
 }
 
-.card-boton:hover{
+.card-action:hover{
     background: var(--main-third-color);
     color: var(--main-principal-color);
     transition: ease .5s;
 }
 
+.card-action a:hover{
+    color: white !important;
+}
 
+
+/* Footer */
+
+footer{
+    background-color: #f7e1e8;
+    height: 620px;
+}
+
+footer .container{
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+footer h5 h6 p{
+    color: #E69EB4 !important;
+}
+
+form .boton{
+    background-color: #e69eb4 !important;
+}
 
 
 
