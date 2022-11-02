@@ -25,6 +25,7 @@
 
 nav {
     font-family: 'Montserrat', sans-serif !important;
+    border-bottom: 500px;
 }
 
 .navbar-brand {
@@ -126,7 +127,7 @@ nav {
 }
 
 .productos .row{
-    width: 30%;
+    width: 50%;
 }
 
 .card-img-top{
@@ -170,27 +171,27 @@ nav {
     margin: 0px 5px;
 }
 
-.card-action a{
+.card-action{
     text-decoration: none;
     font-weight: bolder;
 }
 
 .card-action:hover{
     background: var(--main-third-color);
-    color: var(--main-principal-color);
     transition: ease .5s;
-}
-
-.card-action a:hover{
     color: white !important;
 }
+
 
 
 /* Footer */
 
 footer{
     background-color: #f7e1e8;
-    height: 620px;
+}
+
+.footer-navbar{
+    margin-bottom: 0% !important;
 }
 
 footer .container{
@@ -221,7 +222,30 @@ form .boton{
     }
     
     .productos .row{
-        width: 50%;
+        width: 30%;
+    }
+
+    .footer-navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+        padding: 0%;
+        margin-top: 100px;
+    }
+
+    .footer-mail, .footer-logo, .footer-redes, .footer-contacto, .footer-ayuda{
+        width: 80% !important;
+        margin: 25px 0px;
+        text-align: center;
+    }
+
+    .footer-redes ul{
+        margin-left: 13%;
+    }
+
+    .footer-brand{
+        margin-left: 25%;
     }
 }
 
@@ -249,5 +273,8 @@ form .boton{
         padding: 0rem 2rem 0rem 2rem;
         align-self: center;
     }
+
+
+   
     
   }
