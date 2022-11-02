@@ -207,6 +207,23 @@ form .boton{
 }
 
 
+.footer-logo{
+    width: 25%;
+}
+
+/* Tablet */
+
+@media (max-width: 900px){
+    
+    .productos{
+        padding: 0px 2rem;
+        margin-top: 50px;
+    }
+    
+    .productos .row{
+        width: 50%;
+    }
+}
 
 /* dispositivos moviles */
 
@@ -216,9 +233,14 @@ form .boton{
         border: 1rem 0 0 1rem;
     }
 
-    .card-body{
+    .productos{
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .productos .row{
+        width: 100%;
     }
 
     .card-boton{
