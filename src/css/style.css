@@ -25,6 +25,7 @@
 
 nav {
     font-family: 'Montserrat', sans-serif !important;
+    border-bottom: 500px;
 }
 
 .navbar-brand {
@@ -66,10 +67,13 @@ nav {
     background: url("../../src/img/img-banner.png") no-repeat center / cover;
 }
 
+div.container-fluid{
+    background-color: var(--main-second-color);
+}
+
 .banner-contenido{
     padding-top: 400px;
-    gap: 3px;
-    padding-left: 100px;
+    text-align: center;
 }
 .banner-titulo {
     color: var(--color-withe);
